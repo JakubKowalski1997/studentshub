@@ -32,7 +32,7 @@ public class Main extends Application {
         final Label everythingWork = new Label("");
         DirectoryChooser directoryChooser = new DirectoryChooser();
         directoryChooser.setTitle("Choose file to zip");
-        File defaultDirectory = new File("C:\\Users\\Jakub Kowalski\\IdeaProjects\\JavonetApp\\");
+        File defaultDirectory = new File("C:");
 
         Button buttonToChooseDirectory = new Button("Select folder to zip");
         buttonToChooseDirectory.setOnAction(new EventHandler<ActionEvent>() {
