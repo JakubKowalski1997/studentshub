@@ -22,7 +22,7 @@ public class Zipper {
             //com.javonet.Javonet.getType("MessageBox").invoke("Show", "Hello from .NET!");
 
             String start = a;
-            String zipPath = "C:\\Users\\Jakub Kowalski\\IdeaProjects\\JavonetApp\\" + b + ".zip";
+            String zipPath = "C:" + b + ".zip";
 
             NType zip = com.javonet.Javonet.getType("ZipFile");
             zip.invoke("CreateFromDirectory", start, zipPath);
